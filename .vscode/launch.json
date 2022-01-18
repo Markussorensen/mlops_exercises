@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "args": [
-                "train"
+                "-visualize_batch"
             ],
             "console": "integratedTerminal"
             

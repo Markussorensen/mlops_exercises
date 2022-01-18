@@ -41,7 +41,7 @@ def main():
     model = BertForMaskedLM.from_pretrained('bert-base-uncased')
 
     # send your model to GPU
-    model = model.to(device)
+    model = model.to(args.device)
 
     # initialize distributed data parallel (DDP)
     model = DDP(

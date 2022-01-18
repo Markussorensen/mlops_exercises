@@ -1,0 +1,18 @@
+exp1:
+  dataset_path: C:/Users/Marku/OneDrive - Danmarks Tekniske Universitet/Studie/7. Semester/Machine Learning Operations/cookieproject/data/
+  x_dim: 784
+  hidden_dim: 400
+  latent_dim: 20
+  batch_size: 16
+  lr: 0.01
+  n_epochs: 20
+  seed: 123
+exp2:
+  dataset_path: C:/Users/Marku/OneDrive - Danmarks Tekniske Universitet/Studie/7. Semester/Machine Learning Operations/cookieproject/data/
+  x_dim: 784
+  hidden_dim: 400
+  latent_dim: 50
+  batch_size: 16
+  lr: 0.01
+  n_epochs: 20
+  seed: 123

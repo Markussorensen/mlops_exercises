@@ -1,0 +1,16 @@
+model:
+  name: Linear
+folders:
+  project: C:/Users/Marku/OneDrive - Danmarks Tekniske Universitet/Studie/7. Semester/Machine Learning Operations/Project 1/
+  data: data
+data:
+  img_size: 28
+hyperparameters:
+  batch_size: 64
+  learning_rate: 0.003
+  epochs: 200
+  input_size: 784
+  output_size: 10
+  hidden_layers: [512, 256, 128, 64]
+  dropout_probability: 0.2
+  seed: 100

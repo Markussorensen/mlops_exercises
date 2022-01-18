@@ -13,7 +13,10 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from model import Encoder, Decoder, Model
 
+"""
+This is done in the cookieproject folder
 
+"""
 # Model Hyperparameters
 dataset_path = '~/datasets'
 cuda = True
